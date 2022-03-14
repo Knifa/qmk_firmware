@@ -148,15 +148,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // =============================================================================================
 
   	[_SYMBOL] = LAYOUT(
-        KC_ASTR, KC_PLUS, KC_MINS, KC_EQL , KC_CIRC, KC_0   , KC_1   , KC_2   , KC_3   , KC_4   ,
-        KC_DLR , KC_SLSH, KC_DQUO, KC_LT  , KC_LBRC, KC_RBRC, KC_GT  , _______, _______, _______,
-        KC_AT  , KC_PIPE, KC_COLN, KC_AMPR, KC_HASH, KC_5   , KC_6   , KC_7   , KC_8   , KC_9   ,
+        KC_ASTR, KC_PLUS, KC_MINS, KC_EQL , KC_CIRC, KC_1   , KC_2   , KC_3   , KC_4   , KC_5   ,
+        KC_DLR , KC_SLSH, KC_DQUO, KC_LBRC, KC_LPRN, KC_RPRN, KC_RBRC, _______, _______, _______,
+        KC_AT  , KC_PIPE, KC_COLN, KC_AMPR, KC_HASH, KC_6   , KC_7   , KC_8   , KC_9   , KC_0   ,}
                                    XXXXXXX, MO_SYS,  XXXXXXX, XXXXXXX
     ),
 
     [_SYMBOL_SHIFT] = LAYOUT(
-        KC_PERC, _______, KC_UNDS, _______, _______, _______, _______, _______, _______, _______,
-        _______, KC_BSLS, _______, _______, KC_LCBR, KC_RCBR, _______, _______, _______, _______,
+        _______, _______, KC_UNDS, _______, _______, _______, _______, _______, _______, _______,
+        _______, KC_BSLS, _______, KC_LT  , KC_LCBR, KC_RCBR, KC_GT  , _______, _______, _______,
         _______, _______, KC_SCLN, KC_PERC, _______, _______, _______, _______, _______, _______,
                                    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
     ),
